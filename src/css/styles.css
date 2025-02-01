@@ -1,0 +1,10 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+@import url('./vite-promo.css');
+@import url('./1-gallery.css');
+@import url('./2-form.css');

@@ -1,0 +1,71 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+    padding: 24px;
+    background-color:rgb(237, 247, 247);
+    width: 408px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px; /* Відступ між полями */
+    font-weight: bold; /* Опціонально для кращого виділення тексту */
+  }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    background-color:rgb(66, 171, 171);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    border:0cap;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color:rgb(115, 203, 203);
+}
+
+.form-email-input{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline: transparent;
+    padding: 0px 16px;
+}
+
+.form-email-input:focus {
+    border: 1.5px solid rgb(100, 179, 179);
+}
+
+.form-textarea{
+  outline: transparent;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  resize: vertical;
+}
+
+.form-textarea:focus {
+    border: 1.5px solid rgb(100, 179, 179);
+}
+
