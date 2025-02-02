@@ -1,0 +1,64 @@
+.input-conteiner {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 8px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer .value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.timer .label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+#datetime-picker {
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-bottom: 32px;
+  padding: 16px 8px;
+}
+
+.datetime-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+  border: 0cap;
+}
+
+.datetime-button:hover {
+    background: #4e75ff;
+    color: white;
+}
+
+.main-tittle {
+    text-align: center;
+}
